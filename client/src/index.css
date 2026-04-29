@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@source "../node_modules/@material-tailwind/react";
+
+@theme {
+  --breakpoint-sm: 540px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1140px;
+  --breakpoint-2xl: 1320px;
+
+  --color-blue-gray-50: #eceff1;
+  --color-blue-gray-100: #cfd8dc;
+  --color-blue-gray-200: #b0bec5;
+  --color-blue-gray-300: #90a4ae;
+  --color-blue-gray-400: #78909c;
+  --color-blue-gray-500: #607d8b;
+  --color-blue-gray-600: #546e7a;
+  --color-blue-gray-700: #455a64;
+  --color-blue-gray-800: #37474f;
+  --color-blue-gray-900: #263238;
+
+  --color-brown-50: #efebe9;
+  --color-brown-100: #d7ccc8;
+  --color-brown-200: #bcaaa4;
+  --color-brown-300: #a1887f;
+  --color-brown-400: #8d6e63;
+  --color-brown-500: #795548;
+  --color-brown-600: #6d4c41;
+  --color-brown-700: #5d4037;
+  --color-brown-800: #4e342e;
+  --color-brown-900: #3e2723;
+
+  --color-deep-orange-50: #fbe9e7;
+  --color-deep-orange-100: #ffccbc;
+  --color-deep-orange-200: #ffab91;
+  --color-deep-orange-300: #ff8a65;
+  --color-deep-orange-400: #ff7043;
+  --color-deep-orange-500: #ff5722;
+  --color-deep-orange-600: #f4511e;
+  --color-deep-orange-700: #e64a19;
+  --color-deep-orange-800: #d84315;
+  --color-deep-orange-900: #bf360c;
+
+  --color-light-blue-50: #e1f5fe;
+  --color-light-blue-100: #b3e5fc;
+  --color-light-blue-200: #81d4fa;
+  --color-light-blue-300: #4fc3f7;
+  --color-light-blue-400: #29b6f6;
+  --color-light-blue-500: #03a9f4;
+  --color-light-blue-600: #039be5;
+  --color-light-blue-700: #0288d1;
+  --color-light-blue-800: #0277bd;
+  --color-light-blue-900: #01579b;
+
+  --color-light-green-50: #f1f8e9;
+  --color-light-green-100: #dcedc8;
+  --color-light-green-200: #c5e1a5;
+  --color-light-green-300: #aed581;
+  --color-light-green-400: #9ccc65;
+  --color-light-green-500: #8bc34a;
+  --color-light-green-600: #7cb342;
+  --color-light-green-700: #689f38;
+  --color-light-green-800: #558b2f;
+  --color-light-green-900: #33691e;
+
+  --color-deep-purple-50: #ede7f6;
+  --color-deep-purple-100: #d1c4e9;
+  --color-deep-purple-200: #b39ddb;
+  --color-deep-purple-300: #9575cd;
+  --color-deep-purple-400: #7e57c2;
+  --color-deep-purple-500: #673ab7;
+  --color-deep-purple-600: #5e35b1;
+  --color-deep-purple-700: #512da8;
+  --color-deep-purple-800: #4527a0;
+  --color-deep-purple-900: #311b92;
+}
+
+body {
+  text-align: center;
+}
