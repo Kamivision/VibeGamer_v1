@@ -67,7 +67,7 @@ jobs:
         with:
           node-version: "latest"
           cache: "npm"
-          cache-dependency-path: "./client/package.json"
+          cache-dependency-path: "./client/package-lock.json"
 
       - name: Install dependencies
         working-directory: ./client
