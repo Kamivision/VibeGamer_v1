@@ -65,9 +65,9 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "latest"
+          node-version: "24"
           cache: "npm"
-          cache-dependency-path: client/package-lock.json
+          cache-dependency-path: "./client/package-lock.json"
 
       - name: Install dependencies
         working-directory: ./client
