@@ -118,4 +118,4 @@ jobs:
           script: |
             cd VibeGamer_v1
             git pull origin main
-            docker compose up --build -d
+            sudo docker compose up --build -d
