@@ -28,7 +28,7 @@ export default function App() {
 
   useEffect(() => {
     if (!user) {
-      setLibraryLookup({});
+      Promise.resolve().then(() => setLibraryLookup({}));
       return;
     }
 
